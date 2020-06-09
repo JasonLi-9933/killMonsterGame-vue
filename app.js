@@ -59,7 +59,7 @@ new Vue ({
     },
 
     giveUp: function() {
-      this.seen = !this.seen;
+      this.gameOn = false;
     },
 
     playerDamage: function() {
